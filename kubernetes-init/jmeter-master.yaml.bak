@@ -17,9 +17,9 @@ spec:
     resources:
       limits:
         memory: 1024Mi
-        cpu: 1000m
+        cpu: 50m
       requests:
-        cpu: 1000m
+        cpu: 50m
         memory: 1024Mi
     volumeMounts:
       - name: master
